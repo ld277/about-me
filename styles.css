@@ -61,8 +61,10 @@ small {
     text-align: center;
     background-image: url('./bg.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding-bottom: 50px;
+    min-width: 1000px;
+    min-height: 70vh;
 
 
 }
