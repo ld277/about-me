@@ -1,0 +1,120 @@
+/* styles.css */
+
+body {
+    text-align: center;
+    background-color: rgb(109, 163, 207);
+    margin: 0;
+
+}
+
+div {
+  
+    background-size: contain;
+    background-position: top;
+    color: white;
+    margin: 0;
+    
+}
+
+img {
+    border-radius: 50%;
+
+    border: 3px solid rgb(255, 255, 255);
+}
+
+ul {
+   padding: 10px;
+}
+
+li {
+    margin: 0px;
+    display: inline;
+}
+
+button {
+    border: 0;
+    background-color: white;
+    
+}
+
+h1{
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+small {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about {
+    color: black;
+    text-align: center;
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+
+
+}
+
+.contact {
+    background-color: rgb(109, 163, 207);
+}
+.column {
+    float: left;
+    padding: 10px;
+    min-height: 100vh;
+    max-width: 250px;
+    background-color: rgba(243, 87, 31, 0.749);
+}
+
+.button {
+    background:url(https://www.tutorialspoint.com/latest/inter-process-communication.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:100px;
+    height:100px;
+}
+.intro {
+    text-align: center;
+    
+    color: rgba(243, 87, 31, 0.7);
+
+}
+.left {
+    text-align: left;
+
+
+    padding-left: 35vw;
+    padding-right: 15vw;
+}
+.pug-white {
+    float: right;
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 0;
+    margin-right: -20px;
+}
+
+.pug-orange {
+    float: right;
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 0;
+    margin-right: -20px;
+    border: 3px solid rgba(243, 87, 31, 0.7);
+}
+
+.invisible {
+    color: transparent;
+}
